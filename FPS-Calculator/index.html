@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FPS Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>FPS Calculator</h1>
+
+<div class="dropdown-container">
+  <input type="text" id="cpu-search" placeholder="Search CPU...">
+  <select id="cpu-select"></select>
+</div><br><br>
+
+<div class="dropdown-container">
+  <input type="text" id="gpu-search" placeholder="Search GPU...">
+  <select id="gpu-select"></select>
+</div><br><br>
+
+<button onclick="calculateFPS()">Calculate</button>
+
+<div id="results" style="display:none;">
+  <table>
+    <thead>
+      <tr>
+        <th>Game Name</th>
+        <th>FPS (Full HD)</th>
+        <th>FPS (2K)</th>
+        <th>FPS (4K)</th>
+      </tr>
+    </thead>
+    <tbody id="fps-table-body"></tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

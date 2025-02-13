@@ -1,0 +1,61 @@
+{
+    "cpus": {
+      "i9-14900K": { "comment": "Intel Core i9-14900K" },
+      "i9-13900K": { "comment": "Intel Core i9-13900K" },
+      "Ryzen 9 7950X": { "comment": "AMD Ryzen 9 7950X" },
+      "Ryzen 7 7700X": { "comment": "AMD Ryzen 7 7700X" },
+      "i7-14700K": { "comment": "Intel Core i7-14700K" },
+      "i5-14600K": { "comment": "Intel Core i5-14600K" },
+      "Ryzen 5 7600X": { "comment": "AMD Ryzen 5 7600X" },
+      "i9-12900K": { "comment": "Intel Core i9-12900K" },
+      "Ryzen 9 5900X": { "comment": "AMD Ryzen 9 5900X" },
+      "i7-12700K": { "comment": "Intel Core i7-12700K" },
+      "Ryzen 7 5800X": { "comment": "AMD Ryzen 7 5800X" }
+    },
+    "gpus": {
+      "RTX 4090": { "comment": "NVIDIA GeForce RTX 4090" },
+      "RTX 4080": { "comment": "NVIDIA GeForce RTX 4080" },
+      "RX 7900 XTX": { "comment": "AMD Radeon RX 7900 XTX" },
+      "RTX 4070": { "comment": "NVIDIA GeForce RTX 4070" },
+      "RX 7900 XT": { "comment": "AMD Radeon RX 7900 XT" },
+      "RTX 3080": { "comment": "NVIDIA GeForce RTX 3080" },
+      "RX 6800 XT": { "comment": "AMD Radeon RX 6800 XT" },
+      "RTX 3070": { "comment": "NVIDIA GeForce RTX 3070" },
+      "RX 6700 XT": { "comment": "AMD Radeon RX 6700 XT" },
+      "RTX 2080 Ti": { "comment": "NVIDIA GeForce RTX 2080 Ti" },
+      "RX 5700 XT": { "comment": "AMD Radeon RX 5700 XT" }
+    },
+    "games": {
+      "Cyberpunk 2077": {},
+      "God of War": {},
+      "Spider-Man": {},
+      "Elden Ring": {},
+      "Red Dead Redemption 2": {},
+      "Assassin's Creed Valhalla": {},
+      "Grand Theft Auto V": {},
+      "Horizon Zero Dawn": {},
+      "The Witcher 3": {},
+      "Control": {},
+      "Forza Horizon 5": {},
+      "Call of Duty: Modern Warfare II": {},
+      "Minecraft": {}
+    },
+    "fps_data": {
+      "i9-14900K": {
+        "RTX 4090": {
+          "Cyberpunk 2077": { "fullhd": { "min": "140", "avg": "150", "max": "160" }, "2k": { "min": "110", "avg": "120", "max": "130" }, "4k": { "min": "80", "avg": "90", "max": "100" } },
+          "God of War": { "fullhd": { "min": "130", "avg": "140", "max": "150" }, "2k": { "min": "100", "avg": "110", "max": "120" }, "4k": { "min": "70", "avg": "80", "max": "90" } },
+          "Spider-Man": { "fullhd": { "min": "150", "avg": "160", "max": "170" }, "2k": { "min": "120", "avg": "130", "max": "140" }, "4k": { "min": "90", "avg": "100", "max": "110" } },
+          "Elden Ring": { "fullhd": { "min": "160", "avg": "170", "max": "180" }, "2k": { "min": "130", "avg": "140", "max": "150" }, "4k": { "min": "100", "avg": "110", "max": "120" } },
+          "Red Dead Redemption 2": { "fullhd": { "min": "140", "avg": "150", "max": "160" }, "2k": { "min": "110", "avg": "120", "max": "130" }, "4k": { "min": "80", "avg": "90", "max": "100" } },
+          "Assassin's Creed Valhalla": { "fullhd": { "min": "120", "avg": "130", "max": "140" }, "2k": { "min": "90", "avg": "100", "max": "110" }, "4k": { "min": "60", "avg": "70", "max": "80" } },
+          "Grand Theft Auto V": { "fullhd": { "min": "180", "avg": "190", "max": "200" }, "2k": { "min": "150", "avg": "160", "max": "170" }, "4k": { "min": "100", "avg": "110", "max": "120" } },
+          "Horizon Zero Dawn": { "fullhd": { "min": "150", "avg": "160", "max": "170" }, "2k": { "min": "120", "avg": "130", "max": "140" }, "4k": { "min": "90", "avg": "100", "max": "110" } },
+          "The Witcher 3": { "fullhd": { "min": "160", "avg": "170", "max": "180" }, "2k": { "min": "130", "avg": "140", "max": "150" }, "4k": { "min": "100", "avg": "110", "max": "120" } },
+          "Control": { "fullhd": { "min": "130", "avg": "140", "max": "150" }, "2k": { "min": "100", "avg": "110", "max": "120" }, "4k": { "min": "70", "avg": "80", "max": "90" } },
+          "Forza Horizon 5": { "fullhd": { "min": "170", "avg": "180", "max": "190" }, "2k": { "min": "140", "avg": "150", "max": "160" }, "4k": { "min": "90", "avg": "100", "max": "110" } },
+          "Call of Duty: Modern Warfare II": { "fullhd": { "min": "150", "avg": "160", "max": "170" }, "2k": { "min": "120", "avg": "130", "max": "140" }, "4k": { "min": "90", "avg": "100", "max": "110" } }
+        }
+      }
+    }
+}
